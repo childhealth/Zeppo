@@ -6,7 +6,7 @@
  * MAK 19-12-2017: First version
  */
  
-CREATE TABLE Boundary(
+CREATE TABLE ProfessionalPlans(
   BoundaryID VARCHAR(20) NOT NULL,
   Description VARCHAR(250) NOT NULL,
   CONSTRAINT PK_Boundary PRIMARY KEY (BoundaryID)
