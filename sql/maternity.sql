@@ -7,8 +7,12 @@
  */
  
 CREATE TABLE ProfessionalPlans(
-  BoundaryID VARCHAR(20) NOT NULL,
-  Description VARCHAR(250) NOT NULL,
+  Date VARCHAR(20) NOT NULL,
+  ODSSiteCode VARCHAR(250) NOT NULL,
+  SDSJobRoleName ,
+  ProfessionalName ,
+  PlanDetails ,
+  Recipient ,
   CONSTRAINT PK_Boundary PRIMARY KEY (BoundaryID)
 );
 
