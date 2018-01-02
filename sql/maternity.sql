@@ -114,21 +114,64 @@ CREATE TABLE Medications(
 /* PersonalConcerns - Stores person and carer concerns, expectations and wishes associated with maternity records
  */
 CREATE TABLE PersonalConcerns(
-)
+);
 
 /* PersonalComments - Stores personal comments associated with maternity records
  */
+CREATE TABLE PersonalComments(
+);
  
+/* PersonalContacts - Stores personal contacts associated with maternity records
+ */
+CREATE TABLE PersonalContacts(
+);
+
+/* ProfessionalPlans - Stores plans and requested actions associated with maternity records
+ */
+CREATE TABLE ProfessionalPlans(
+  Date VARCHAR(20) NOT NULL,
+  ODSSiteCode VARCHAR(250) NOT NULL,
+  SDSJobRoleName ,
+  ProfessionalName ,
+  PlanDetails ,
+  Recipient ,
+);
  
-Personal Contacts
-Plan & Requested Actions
-Pregnancy Episode Details
-Procedures
-Professional Comment
-Professional Contacts
-Referral Details
-Safety Alerts
-Scan Report
+/* PregnancyEpisodes - Stores pregnancy episodes details associated with maternity records
+ */
+CREATE TABLE PregnancyEpisodes(
+);
+ 
+/* Procedures - Stores procedures associated with maternity records
+ */
+CREATE TABLE Procedures(
+);
+ 
+/* ProfessionalComments - Stores professional comments associated with maternity records
+ */
+CREATE TABLE ProfessionalComments(
+);
+
+/* ProfessionalContacts - Stores professional contacts associated with maternity records
+ */
+CREATE TABLE ProfessionalContacts(
+);
+
+/* Referrals - Stores referral details associated with maternity records
+ */
+CREATE TABLE Referrals(
+);
+
+/* SafetyAlerts - Stores safety alerts associated with maternity records
+ */
+CREATE TABLE SafetyAlerts(
+);
+
+/* ScanReports - Stores scan reports associated with maternity records
+ */
+CREATE TABLE ScanReports(
+);
+ 
 Sickle Cell and Thalassaemia
 Social Context Household
 Social Context Person
@@ -137,15 +180,7 @@ Birth Delivery
 Repair Details
 Birth and Management Plan
 
-CREATE TABLE ProfessionalPlans(
-  Date VARCHAR(20) NOT NULL,
-  ODSSiteCode VARCHAR(250) NOT NULL,
-  SDSJobRoleName ,
-  ProfessionalName ,
-  PlanDetails ,
-  Recipient ,
-  CONSTRAINT PK_Boundary PRIMARY KEY (BoundaryID)
-);
+
 
 CREATE INDEX idx_type
 ON Boundary (BoundaryID);
