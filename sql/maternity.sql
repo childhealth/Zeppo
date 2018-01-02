@@ -172,15 +172,37 @@ CREATE TABLE SafetyAlerts(
 CREATE TABLE ScanReports(
 );
  
-Sickle Cell and Thalassaemia
-Social Context Household
-Social Context Person
-Intrapartum
-Birth Delivery
-Repair Details
-Birth and Management Plan
+/* Screenings - Stores screening test results for Sickle Cell and Thalassaemia associated with maternity records
+ */
+CREATE TABLE Screenings(
+); 
 
+/* SocialContextHouseholds - Stores social context households associated with maternity records
+ */
+CREATE TABLE SocialContextHouseholds(
+);  
 
-
-CREATE INDEX idx_type
-ON Boundary (BoundaryID);
+/* SocialContextPersons - Stores social context persons associated with maternity records
+ */
+CREATE TABLE SocialContextPersons(
+);
+ 
+/* Intrapartums - Stores intrapartums associated with maternity records
+ */
+CREATE TABLE Intrapartums(
+);
+ 
+/* Deliveries - Stores birth deliveries associated with maternity records
+ */
+CREATE TABLE Deliveries(
+);
+ 
+/* Repairs - Stores repair details associated with maternity records
+ */
+CREATE TABLE Repairs(
+);
+ 
+/* BirthPlans - Stores birth and management plans associated with maternity records
+ */
+CREATE TABLE BirthPlans(
+);
