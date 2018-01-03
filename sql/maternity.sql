@@ -59,9 +59,9 @@ CREATE TABLE AllergiesAdverseReactions (
  DateRecorded DATE NOT NULL,
  CausativeAgent TEXT NOT NULL,
  ReactionDescription TEXT,
- ReactionType VARCHAR(5) NOT NULL, /* Codes */
- Certainty VARCHAR(5), /* Codes */
- Severity VARCHAR(5) NOT NULL, /* Codes */
+ ReactionType VARCHAR(5) NOT NULL,
+ Certainty VARCHAR(5),
+ Severity VARCHAR(5) NOT NULL,
  Evidence TEXT,
  RecurrenceProbability TEXT,
  FirstExperienced TEXT,
@@ -131,9 +131,24 @@ VALUES (14, 3, '4', 'Life threatening', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
 VALUES (15, 3, '5', 'Fatal', 'SYSTEM', '2018-01-01 01:00:00');
 
+
 /* Assessments - Stores assessment scales associated with maternity records
  */
-CREATE TABLE Assessments(
+CREATE TABLE Assessments (
+ AssessmentID INTEGER NOT NULL,
+ MaternityRecordID INTEGER NOT NULL,
+ DateRecorded DATE NOT NULL,
+ LocationRecorded TEXT NOT NULL,
+ PerformerName TEXT NOT NULL,
+ PerformerJobRole TEXT NOT NULL,
+ Completed VARCHAR(5) NOT NULL,
+ Type VARCHAR(5) NOT NULL,
+ Outcome TEXT,
+ Score TEXT,
+ UStamp VARCHAR(20) NOT NULL,
+ DTStamp TIMESTAMP NOT NULL,
+ CONSTRAINT PK_Assessments PRIMARY KEY (AssessmentID),
+ CONSTRAINT FK_Assessments_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
 
 /* Attendances - Stores attendance details associated with maternity records
