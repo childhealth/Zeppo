@@ -71,7 +71,7 @@ CREATE TABLE AllergiesAdverseReactions (
  CONSTRAINT FK_AllergiesAdverseReactions_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
 
-/* Insert related codelists
+/* Insert AllergiesAdverseReactions related codelists
  */
 INSERT INTO CodeLists (CodeListID, DatabaseTable, DatabaseColumn, UStamp, DTStamp)
 VALUES (1, 'AllergiesAdverseReactions', 'ReactionType', 'SYSTEM', '2018-01-01 01:00:00');
@@ -82,11 +82,23 @@ VALUES (2, 'AllergiesAdverseReactions', 'Certainty', 'SYSTEM', '2018-01-01 01:00
 INSERT INTO CodeLists (CodeListID, DatabaseTable, DatabaseColumn, UStamp, DTStamp)
 VALUES (3, 'AllergiesAdverseReactions', 'Severity', 'SYSTEM', '2018-01-01 01:00:00');
 
-/* Insert related codes
+/* Insert AllergiesAdverseReactions related codes
  */
 INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
 VALUES (1, 1, '1', 'Allergy', 'SYSTEM', '2018-01-01 01:00:00'); 
  
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (2, 1, '2', 'Intolerance', 'SYSTEM', '2018-01-01 01:00:00'); 
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (3, 1, '3', 'Other non-drug allergy', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (4, 1, '4', 'Adverse reaction', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (5, 1, '0', 'Not known', 'SYSTEM', '2018-01-01 01:00:00');
+
 /* Assessments - Stores assessment scales associated with maternity records
  */
 CREATE TABLE Assessments(
