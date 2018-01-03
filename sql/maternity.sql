@@ -99,6 +99,19 @@ VALUES (4, 1, '4', 'Adverse reaction', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
 VALUES (5, 1, '0', 'Not known', 'SYSTEM', '2018-01-01 01:00:00');
 
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (6, 2, '1', 'Unlikely', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (7, 2, '2', 'Likely', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (8, 2, '3', 'Certain', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (9, 2, '4', 'Confirmed by challenge testing', 'SYSTEM', '2018-01-01 01:00:00');
+
 /* Assessments - Stores assessment scales associated with maternity records
  */
 CREATE TABLE Assessments(
