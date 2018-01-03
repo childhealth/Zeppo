@@ -31,7 +31,7 @@ CREATE TABLE CodeLists (
 /* Codes - Stores codes
  */
 CREATE TABLE Codes (
- CodeID INTEGER NOT NULL AUTOINCREMENT,
+ CodeID INTEGER NOT NULL,
  CodeListID INTEGER NOT NULL,
  CodeKey VARCHAR(20) NOT NULL,
  CodeValue TEXT NOT NULL,
@@ -54,7 +54,7 @@ CREATE TABLE Admissions(
 /* AllergiesAdverseReactions - Stores allergies and adverse reactions associated with maternity records
  */
 CREATE TABLE AllergiesAdverseReactions (
- AllergyAdverseReactionID INTEGER NOT NULL AUTOINCREMENT,
+ AllergyAdverseReactionID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
  DateRecorded DATE NOT NULL,
  CausativeAgent TEXT NOT NULL,
@@ -84,52 +84,52 @@ VALUES (3, 'AllergiesAdverseReactions', 'Severity', 'SYSTEM', '2018-01-01 01:00:
 
 /* Insert AllergiesAdverseReactions related codes
  */
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (1, '1', 'Allergy', 'SYSTEM', '2018-01-01 01:00:00'); 
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (1, 1, '1', 'Allergy', 'SYSTEM', '2018-01-01 01:00:00'); 
  
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (1, '2', 'Intolerance', 'SYSTEM', '2018-01-01 01:00:00'); 
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (2, 1, '2', 'Intolerance', 'SYSTEM', '2018-01-01 01:00:00'); 
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (1, '3', 'Other non-drug allergy', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (3, 1, '3', 'Other non-drug allergy', 'SYSTEM', '2018-01-01 01:00:00');
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (1, '4', 'Adverse reaction', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (4, 1, '4', 'Adverse reaction', 'SYSTEM', '2018-01-01 01:00:00');
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (1, '0', 'Not known', 'SYSTEM', '2018-01-01 01:00:00');
-
-
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (2, '1', 'Unlikely', 'SYSTEM', '2018-01-01 01:00:00');
-
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (2, '2', 'Likely', 'SYSTEM', '2018-01-01 01:00:00');
-
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (2, '3', 'Certain', 'SYSTEM', '2018-01-01 01:00:00');
-
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (2, '4', 'Confirmed by challenge testing', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (5, 1, '0', 'Not known', 'SYSTEM', '2018-01-01 01:00:00');
 
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (3, '1', 'Mild', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (6, 2, '1', 'Unlikely', 'SYSTEM', '2018-01-01 01:00:00');
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (3, '2', 'Moderate', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (7, 2, '2', 'Likely', 'SYSTEM', '2018-01-01 01:00:00');
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (3, '3', 'Severe', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (8, 2, '3', 'Certain', 'SYSTEM', '2018-01-01 01:00:00');
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (3, '0', 'Unknown severity', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (9, 2, '4', 'Confirmed by challenge testing', 'SYSTEM', '2018-01-01 01:00:00');
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (3, '4', 'Life threatening', 'SYSTEM', '2018-01-01 01:00:00');
 
-INSERT INTO Codes (CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
-VALUES (3, '5', 'Fatal', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (10, 3, '1', 'Mild', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (11, 3, '2', 'Moderate', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (12, 3, '3', 'Severe', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (13, 3, '0', 'Unknown severity', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (14, 3, '4', 'Life threatening', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (15, 3, '5', 'Fatal', 'SYSTEM', '2018-01-01 01:00:00');
 
 /* Assessments - Stores assessment scales associated with maternity records
  */
