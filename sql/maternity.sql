@@ -9,12 +9,12 @@
 /* MaternityRecords - Stores standard maternity records
  */
 CREATE TABLE MaternityRecords (
- RecordID BIGINT NOT NULL,
+ MaternityRecordID INTEGER NOT NULL,
  NHSNumber VARCHAR(10),
  ProviderID VARCHAR(50),
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
- PRIMARY KEY (RecordID)
+ CONSTRAINT PK_MaternityRecords PRIMARY KEY (MaternityRecordID)
 );
 
 /* Codes - Stores code lists
@@ -24,7 +24,13 @@ CREATE TABLE Codes(
 
 /* AllergiesAdverseReactions - Stores allergies and adverse reactions associated with maternity records
  */
-CREATE TABLE AllergiesAdverseReactions(
+CREATE TABLE AllergiesAdverseReactions (
+ MaternityRecordID INTEGER NOT NULL,
+ RecordID INTEGER NOT NULL,
+ 
+ UStamp VARCHAR(20) NOT NULL,
+ DTStamp TIMESTAMP NOT NULL,
+ CONSTRAINT PK_AllergiesAdverseReactions PRIMARY KEY (MaternityRecordID, RecordID)
 );
 
 /* Assessments - Stores assessment scales associated with maternity records
