@@ -25,12 +25,13 @@ CREATE TABLE Codes(
 /* AllergiesAdverseReactions - Stores allergies and adverse reactions associated with maternity records
  */
 CREATE TABLE AllergiesAdverseReactions (
+ AllergyAdverseReactionID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
- RecordID INTEGER NOT NULL,
  
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
- CONSTRAINT PK_AllergiesAdverseReactions PRIMARY KEY (MaternityRecordID, RecordID)
+ CONSTRAINT PK_AllergiesAdverseReactions PRIMARY KEY (AllergyAdverseReactionID),
+ CONSTRAINT FK_AllergyAdverseReaction_MaternityRecord FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
 
 /* Assessments - Stores assessment scales associated with maternity records
