@@ -8,7 +8,13 @@
 
 /* MaternityRecords - Stores standard maternity records
  */
-CREATE TABLE MaternityRecords(
+CREATE TABLE MaternityRecords (
+ RecordID BIGINT NOT NULL,
+ NHSNumber VARCHAR(10),
+ ProviderID VARCHAR(50),
+ UStamp VARCHAR(20) NOT NULL,
+ DTStamp TIMESTAMP NOT NULL,
+ PRIMARY KEY (RecordID)
 );
 
 /* Codes - Stores code lists
