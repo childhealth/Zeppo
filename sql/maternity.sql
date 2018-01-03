@@ -22,16 +22,34 @@ CREATE TABLE MaternityRecords (
 CREATE TABLE Codes(
 );
 
+/* AdditionalDemographics - Stores additional demographics associated with maternity records
+ */
+CREATE TABLE AdditionalDemographics(
+);
+
+/* Admissions - Stores admission details associated with maternity records
+ */
+CREATE TABLE Admissions(
+);
+
 /* AllergiesAdverseReactions - Stores allergies and adverse reactions associated with maternity records
  */
 CREATE TABLE AllergiesAdverseReactions (
  AllergyAdverseReactionID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
- 
+ DateRecorded DATE NOT NULL,
+ CausativeAgent VARCHAR(100) NOT NULL,
+ ReactionDescription TEXT,
+ ReactionType VARCHAR(5) NOT NULL, /* Codes */
+ Certainty VARCHAR(5), /* Codes */
+ Severity VARCHAR(5) NOT NULL, /* Codes */
+ Evidence TEXT,
+ RecurrenceProbability TEXT,
+ FirstExperienced TEXT,
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
  CONSTRAINT PK_AllergiesAdverseReactions PRIMARY KEY (AllergyAdverseReactionID),
- CONSTRAINT FK_AllergyAdverseReaction_MaternityRecord FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
+ CONSTRAINT FK_AllergiesAdverseReactions_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
 
 /* Assessments - Stores assessment scales associated with maternity records
