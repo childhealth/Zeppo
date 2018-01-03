@@ -32,9 +32,9 @@ CREATE TABLE CodeLists (
  */
 CREATE TABLE Codes (
  CodeID INTEGER NOT NULL,
- CodeListID INTGER NOT NULL,
- Key VARCHAR(20) NOT NULL,
- Value TEXT NOT NULL,
+ CodeListID INTEGER NOT NULL,
+ CodeKey VARCHAR(20) NOT NULL,
+ CodeValue TEXT NOT NULL,
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
  CONSTRAINT PK_Codes PRIMARY KEY (CodeID),
@@ -70,6 +70,11 @@ CREATE TABLE AllergiesAdverseReactions (
  CONSTRAINT PK_AllergiesAdverseReactions PRIMARY KEY (AllergyAdverseReactionID),
  CONSTRAINT FK_AllergiesAdverseReactions_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
+
+/* Insert related codelists
+ */
+INSERT INTO CodeLists (CodeListID, DatabaseTable, DatabaseColumn, UStamp, DTStamp)
+VALUES (1, 'AllergiesAdverseReactions', 'ReactionType', 'SYSTEM', '2018-01-01 01:00:00');
 
 /* Assessments - Stores assessment scales associated with maternity records
  */
