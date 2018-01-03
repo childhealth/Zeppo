@@ -82,6 +82,11 @@ VALUES (2, 'AllergiesAdverseReactions', 'Certainty', 'SYSTEM', '2018-01-01 01:00
 INSERT INTO CodeLists (CodeListID, DatabaseTable, DatabaseColumn, UStamp, DTStamp)
 VALUES (3, 'AllergiesAdverseReactions', 'Severity', 'SYSTEM', '2018-01-01 01:00:00');
 
+/* Insert related codes
+ */
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (1, 1, '1', 'Allergy', 'SYSTEM', '2018-01-01 01:00:00'); 
+ 
 /* Assessments - Stores assessment scales associated with maternity records
  */
 CREATE TABLE Assessments(
