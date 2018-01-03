@@ -112,6 +112,25 @@ VALUES (8, 2, '3', 'Certain', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
 VALUES (9, 2, '4', 'Confirmed by challenge testing', 'SYSTEM', '2018-01-01 01:00:00');
 
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (10, 3, '1', 'Mild', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (11, 3, '2', 'Moderate', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (12, 3, '3', 'Severe', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (13, 3, '0', 'Unknown severity', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (14, 3, '4', 'Life threatening', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO Codes (CodeID, CodeListID, CodeKey, CodeValue, UStamp, DTStamp)
+VALUES (15, 3, '5', 'Fatal', 'SYSTEM', '2018-01-01 01:00:00');
+
 /* Assessments - Stores assessment scales associated with maternity records
  */
 CREATE TABLE Assessments(
