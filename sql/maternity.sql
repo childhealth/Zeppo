@@ -76,6 +76,12 @@ CREATE TABLE AllergiesAdverseReactions (
 INSERT INTO CodeLists (CodeListID, DatabaseTable, DatabaseColumn, UStamp, DTStamp)
 VALUES (1, 'AllergiesAdverseReactions', 'ReactionType', 'SYSTEM', '2018-01-01 01:00:00');
 
+INSERT INTO CodeLists (CodeListID, DatabaseTable, DatabaseColumn, UStamp, DTStamp)
+VALUES (2, 'AllergiesAdverseReactions', 'Certainty', 'SYSTEM', '2018-01-01 01:00:00');
+
+INSERT INTO CodeLists (CodeListID, DatabaseTable, DatabaseColumn, UStamp, DTStamp)
+VALUES (3, 'AllergiesAdverseReactions', 'Severity', 'SYSTEM', '2018-01-01 01:00:00');
+
 /* Assessments - Stores assessment scales associated with maternity records
  */
 CREATE TABLE Assessments(
