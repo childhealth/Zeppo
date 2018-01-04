@@ -107,7 +107,7 @@ CREATE TABLE Assessments (
  LocationRecorded TEXT NOT NULL,
  -- PerformerID ???
  PerformerName TEXT NOT NULL,
- PerformerJobRole TEXT NOT NULL,
+ PerformerJobRole TEXT NOT NULL,-- Should be coded
  Completed VARCHAR(5) NOT NULL, -- Coded
  Type VARCHAR(5) NOT NULL,      -- Coded
  Outcome TEXT,
@@ -139,11 +139,11 @@ INSERT INTO Codes VALUES (25, 5, '9', 'Generalised Anxiety Disorder Questionnair
 INSERT INTO Codes VALUES (26, 5, '10', 'Health Anxiety Inventory Short Week Scale', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (27, 5, '11', 'Obsessive Compulsive Disorder Inventory Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (28, 5, '12', 'Panic Disorder Severity Scale', 'SYSTEM', '2018-01-01 01:00:00');
-/*
-13	Post Traumatic Stress Disorder Impacts of Events Revised Scale
-14	Social Phobia Inventory Questionnaire
-15	Social Phobia Questionnaire
-16	Specific Phobia Questionnaire
+INSERT INTO Codes VALUES (29, 5, '13', 'Post Traumatic Stress Disorder Impacts of Events Revised Scale', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (30, 5, '14', 'Social Phobia Inventory Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (31, 5, '15', 'Social Phobia Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (32, 5, '16', 'Specific Phobia Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
+
 17	Work and Social Adjustment Scale
 20	Adult Mental Health Clustering Tool
 21	Cardiovascular Disease Risk Calculator
