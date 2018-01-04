@@ -1,5 +1,5 @@
 /*
- * SQL to create Assessmentss table.
+ * SQL to create Assessments table.
  * Stores assessment scales associated with maternity records.
  * Assumes table does not already exist.
  * Based on Maternity Data Model Version 0.6
