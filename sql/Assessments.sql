@@ -52,37 +52,35 @@ INSERT INTO Codes VALUES (29, 5, '13', 'Post Traumatic Stress Disorder Impacts o
 INSERT INTO Codes VALUES (30, 5, '14', 'Social Phobia Inventory Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (31, 5, '15', 'Social Phobia Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (32, 5, '16', 'Specific Phobia Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
-
-17	Work and Social Adjustment Scale
-20	Adult Mental Health Clustering Tool
-21	Cardiovascular Disease Risk Calculator
-24	Children's Global Assessment Scale
-25	Family Assessment Device (General Functioning Subscale)
-26	Parenting Daily Hassles
-28	Paddington Complexity Scale
-30	Mood And Feelings Questionnaire
-31	Parenting Stress Index
-32	Adult Comorbidity Evaluation - 27
-33	Child-Pugh Score Calculator
-34	Dysphagia Scoring System
-35	Follicular Lymphoma International Prognostic Index
-36	Hasenclever Index
-38	International Prognostic Scoring System
-39	Nottingham Prognostic Index
-40	Revised International Prognostic Index
-41	Sokal Index
-42	Oxford Orthopaedic Questionnaire
-43	Oxford Orthopaedic Questionnaire (Shoulder)
-44	Venous Thromboembolism Risk Assessment Tool
-45	TPRG-SEND Two Year Corrected Age Outcome Assessment
-46	Bayley Scales of Infant and Toddler Development (Third Edition)
-47	Griffiths Mental Development Scales
-48	Schedule of Growing Skills
-49	Improving Access to Psychological Therapies Patient Experience Questionnaire
-52	Forensic Mental Health Clustering Tool
-53	Child and Adolescent Mental Health Needs Based Grouping Tool
-54	European Group for the Immunological Classification of Leukaemia Scoring System
-*/
+INSERT INTO Codes VALUES (33, 5, '17', 'Work and Social Adjustment Scale', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (34, 5, '20', 'Adult Mental Health Clustering Tool', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (35, 5, '21', 'Cardiovascular Disease Risk Calculator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (36, 5, '24', 'Children''s Global Assessment Scale', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (37, 5, '25', 'Family Assessment Device (General Functioning Subscale)', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (38, 5, '26', 'Parenting Daily Hassles', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (39, 5, '28', 'Paddington Complexity Scale', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (40, 5, '30', 'Mood and Feelings Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (41, 5, '31', 'Parenting Stress Index', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (42, 5, '32', 'Adult Comorbidity Evaluation - 27', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (43, 5, '33', 'Child-Pugh Score Calculator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (44, 5, '34', 'Dysphagia Scoring System', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (45, 5, '35', 'Follicular Lymphoma International Prognostic Index', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (46, 5, '36', 'Hasenclever Index', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (47, 5, '38', 'International Prognostic Scoring System', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (48, 5, '39', 'Nottingham Prognostic Index', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (49, 5, '40', 'Revised International Prognostic Index', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (50, 5, '41', 'Sokal Index', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (51, 5, '42', 'Oxford Orthopaedic Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (52, 5, '43', 'Oxford Orthopaedic Questionnaire (Shoulder)', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (53, 5, '44', 'Venous Thromboembolism Risk Assessment Tool', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (54, 5, '45', 'TPRG-SEND Two Year Corrected Age Outcome Assessment', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (55, 5, '46', 'Bayley Scales of Infant and Toddler Development (Third Edition)', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (56, 5, '47', 'Griffiths Mental Development Scales', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (57, 5, '48', 'Schedule of Growing Skills', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (58, 5, '49', 'Improving Access to Psychological Therapies Patient Experience Questionnaire', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (59, 5, '52', 'Forensic Mental Health Clustering Tool', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (60, 5, '53', 'Child and Adolescent Mental Health Needs Based Grouping Tool', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (61, 5, '54', 'European Group for the Immunological Classification of Leukaemia Scoring System', 'SYSTEM', '2018-01-01 01:00:00');
 --	Depression Identification Questions
 --	Anxiety Identification Questions
 --	OTHER (specify)
