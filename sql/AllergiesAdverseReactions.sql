@@ -1,6 +1,6 @@
 /*
  * SQL to create AllergiesAdverseReactions table.
- * Stores allergies and adverse reactions associated with MaternityRecords.
+ * Stores allergies and adverse reactions associated with maternity records.
  * Assumes table does not already exist.
  * Based on Maternity Data Model Version 0.6
  *
