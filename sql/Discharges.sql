@@ -43,24 +43,22 @@ INSERT INTO Codes VALUES (314, 14, '5', 'Stillbirth', 'SYSTEM', '2018-01-01 01:0
 INSERT INTO Codes VALUES (315, 14, '6', 'PATIENT discharged him/herself *', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (316, 14, '7', 'PATIENT discharged by a relative or advocate *', 'SYSTEM', '2018-01-01 01:00:00');
 
-
-19	Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes PATIENTS with no fixed abode.
-INSERT INTO Codes VALUES (316, 14, '7', 'PATIENT discharged by a relative or advocate *', 'SYSTEM', '2018-01-01 01:00:00');
-29	Temporary place of residence when usually resident elsewhere (includes hotel, residential Educational Establishment)
-30	Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)
-37	Court
-38	Penal establishment or police station
-48	High Security Psychiatric Hospital, Scotland
-49	NHS other Hospital Provider - high security psychiatric accommodation
-50	NHS other Hospital Provider - medium secure unit
-51	NHS other Hospital Provider - WARD for general PATIENTS or the younger physically disabled
-52	NHS other Hospital Provider - WARD for maternity PATIENTS or Neonates 
-53	NHS other Hospital Provider - WARD for PATIENTS who are mentally ill or have Learning Disabilities
-54	NHS run Care Home 
-65	Local Authority residential accommodation i.e. where care is provided
-66	Local Authority foster care
-79	Not applicable - PATIENT died or still birth
-84	Non-NHS run hospital - medium secure unit
-85	Non-NHS (other than Local Authority) run Care Home 
-87	Non-NHS run hospital
-88	Non-NHS (other than Local Authority) run Hospice
+INSERT INTO Codes VALUES (317, 15, '19', 'Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes PATIENTS with no fixed abode.', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (318, 15, '29', 'Temporary place of residence when usually resident elsewhere (includes hotel, residential Educational Establishment)', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (319, 15, '30', 'Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (320, 15, '37', 'Court', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (321, 15, '38', 'Penal establishment or police station', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (322, 15, '40', 'High Security Psychiatric Hospital, Scotland', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (323, 15, '49', 'NHS other Hospital Provider - high security psychiatric accommodation', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (324, 15, '50', 'NHS other Hospital Provider - medium secure unit', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (325, 15, '51', 'NHS other Hospital Provider - WARD for general PATIENTS or the younger physically disabled', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (326, 15, '52', 'NHS other Hospital Provider - WARD for maternity PATIENTS or Neonates', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (327, 15, '53', 'NHS other Hospital Provider - WARD for PATIENTS who are mentally ill or have Learning Disabilities', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (328, 15, '54', 'NHS run Care Home', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (329, 15, '65', 'Local Authority residential accommodation i.e. where care is provided', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (330, 15, '66', 'Local Authority foster care', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (331, 15, '79', 'Not applicable - PATIENT died or still birth', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (332, 15, '84', 'Non-NHS run hospital - medium secure unit', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (333, 15, '85', 'Non-NHS (other than Local Authority) run Care Home ', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (334, 15, '87', 'Non-NHS run hospital', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (335, 15, '88', 'Non-NHS (other than Local Authority) run Hospice', 'SYSTEM', '2018-01-01 01:00:00');
