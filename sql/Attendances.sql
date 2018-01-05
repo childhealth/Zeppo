@@ -70,4 +70,10 @@ INSERT INTO Codes VALUES (86, 6, '50', 'Radiotherapy Attendance', 'SYSTEM', '201
 INSERT INTO Codes VALUES (87, 6, '51', 'Holistic Needs Assessment', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (88, 6, '52', 'Emergency Care Attendance', 'SYSTEM', '2018-01-01 01:00:00');
 
-
+INSERT INTO Codes VALUES (89, 7, '1', 'Face to face communication', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (90, 7, '2', 'Telephone', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (91, 7, '3', 'Telemedicine web camera', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (92, 7, '4', 'Talk type for a PERSON unable to speak', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (93, 7, '5', '	Email **', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (94, 7, '6', 'Short Message Service (SMS) - Text Messaging **', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (95, 7, '98', 'Other * ', 'SYSTEM', '2018-01-01 01:00:00');
