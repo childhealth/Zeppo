@@ -13,12 +13,15 @@
 CREATE TABLE ConditionsDiagnoses (
  ConditionDiagnosisID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
+ 
  Condition VARCHAR(18) NOT NULL; -- Coded
  Category VARCHAR(1) NOT NULL,   -- Coded
  Stage TEXT,
  Onset DATE,
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
+ 
  CONSTRAINT PK_ConditionsDiagnoses PRIMARY KEY (ConditionDiagnosisID),
  CONSTRAINT FK_ConditionsDiagnoses_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
