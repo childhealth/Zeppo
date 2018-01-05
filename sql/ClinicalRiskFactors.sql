@@ -17,7 +17,7 @@ CREATE TABLE ClinicalRiskFactors (
  -- PerformerID ???
  PerformerName TEXT NOT NULL,
  PerformerJobRole TEXT NOT NULL,        -- Should be coded
- ClinicalRiskFactor TEXT NOT NULL;
+ ClinicalRiskFactor TEXT NOT NULL,
  RiskAssessment TEXT NOT NULL,
  RiskMitigation TEXT NOT NULL,
  UStamp VARCHAR(20) NOT NULL,
