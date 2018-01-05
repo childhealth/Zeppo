@@ -12,6 +12,7 @@
 CREATE TABLE AllergiesAdverseReactions (
  AllergyAdverseReactionID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
+ 
  DateRecorded DATE NOT NULL,
  CausativeAgent TEXT NOT NULL,
  ReactionDescription TEXT,
@@ -21,8 +22,10 @@ CREATE TABLE AllergiesAdverseReactions (
  Evidence TEXT,
  RecurrenceProbability TEXT,
  FirstExperienced TEXT,
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
+ 
  CONSTRAINT PK_AllergiesAdverseReactions PRIMARY KEY (AllergyAdverseReactionID),
  CONSTRAINT FK_AllergiesAdverseReactions_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
