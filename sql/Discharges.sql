@@ -14,6 +14,9 @@ CREATE TABLE Discharges (
  MaternityRecordID INTEGER NOT NULL,
  
  DischargeDateTime TIMESTAMP NOT NULL;
+ DichargeFrom TEXT NOT NULL,
+ DischargingConsultant TEXT,
+ DischargingSpeciality TEXT NOT NULL,        -- Should be coded
  
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
