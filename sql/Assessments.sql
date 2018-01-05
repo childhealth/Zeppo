@@ -12,6 +12,7 @@
 CREATE TABLE Assessments (
  AssessmentID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
+ 
  DateRecorded DATE NOT NULL,
  LocationRecorded TEXT NOT NULL,
  -- PerformerID ???
@@ -21,8 +22,10 @@ CREATE TABLE Assessments (
  Type VARCHAR(5) NOT NULL,      -- Coded
  Outcome TEXT,
  Score TEXT,
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
+ 
  CONSTRAINT PK_Assessments PRIMARY KEY (AssessmentID),
  CONSTRAINT FK_Assessments_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
