@@ -21,7 +21,7 @@ CREATE TABLE Attendances (
  Indication TEXT;
  ContactType VARCHAR(2),                -- Coded
  ConsultationMethod VARCHAR(2),         -- Coded
- Speciality VARCHAR(3),                 -- Coded
+ Speciality VARCHAR(3),                 -- Coded ('*', 'Speciality')
  Service VARCHAR(2),                    -- Coded
  -- Care professionals present 0..*
  PersonAccompanyingPatient VARCHAR(10), -- Coded
