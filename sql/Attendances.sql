@@ -161,18 +161,102 @@ INSERT INTO Codes VALUES (170, 8, '831', 'MEDICAL MICROBIOLOGY AND VIROLOGY', 'S
 INSERT INTO Codes VALUES (171, 8, '833', '	MEDICAL MICROBIOLOGY (also known as MICROBIOLOGY AND BACTERIOLOGY)', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (172, 8, '834', 'MEDICAL VIROLOGY', 'SYSTEM', '2018-01-01 01:00:00');
 -- Other 	
-900	COMMUNITY MEDICINE
-INSERT INTO Codes VALUES (173, 8, '98', 'Other *', 'SYSTEM', '2018-01-01 01:00:00');
-901	OCCUPATIONAL MEDICINE
-INSERT INTO Codes VALUES (174, 8, '98', 'Other *', 'SYSTEM', '2018-01-01 01:00:00');
-902	COMMUNITY HEALTH SERVICES DENTAL
-INSERT INTO Codes VALUES (175, 8, '98', 'Other *', 'SYSTEM', '2018-01-01 01:00:00');
-903	PUBLIC HEALTH MEDICINE
-INSERT INTO Codes VALUES (176, 8, '98', 'Other *', 'SYSTEM', '2018-01-01 01:00:00');
-904	PUBLIC HEALTH DENTAL
-INSERT INTO Codes VALUES (177, 8, '98', 'Other *', 'SYSTEM', '2018-01-01 01:00:00');
-950	NURSING EPISODE
-INSERT INTO Codes VALUES (178, 8, '98', 'Other *', 'SYSTEM', '2018-01-01 01:00:00');
-960	ALLIED HEALTH PROFESSIONAL EPISODE
-INSERT INTO Codes VALUES (179, 8, '98', 'Other *', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (173, 8, '900', 'COMMUNITY MEDICINE', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (174, 8, '901', 'OCCUPATIONAL MEDICINE', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (175, 8, '902', 'COMMUNITY HEALTH SERVICES DENTAL', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (176, 8, '903', 'PUBLIC HEALTH MEDICINE', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (177, 8, '904', 'PUBLIC HEALTH DENTAL', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (178, 8, '950', 'NURSING EPISODE', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (179, 8, '960', 'ALLIED HEALTH PROFESSIONAL EPISODE', 'SYSTEM', '2018-01-01 01:00:00');
+
+01	Appliances Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+02	Arts Therapy Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+03	Cancer Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+04	Cardiac Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+05	Community Dental Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+06	Community Paediatrics Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+07	Continence Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+09	Counselling Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+10	Dermatology Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+11	Diabetes Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+12	District Nursing Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+13	Ear Nose and Throat Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+14	End of Life Care Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+15	Gastrointestinal Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+16	Health Visiting Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+17	Hearing Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+18	Intermediate Care Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+19	Long Term Conditions Case Management Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+20	Musculoskeletal Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+21	Neurology Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+22	Nutrition and Dietetics Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+23	Occupational Therapy Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+24	Orthoptist Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+25	Pain Management Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+26	Physiotherapy Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+27	Podiatry Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+28	Public Health and Lifestyle Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+29	Rehabilitation Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+30	Respiratory Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+31	Rheumatology Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+32	School Nursing Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+33	Speech and Language Therapy Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+34	Vulnerable Children's Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+35	Vulnerable Adult's Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+36	Respite Care Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+37	Clinical Psychology Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+38	Children's Community Nursing Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+39	Diagnostic Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+40	Treatment Room Nursing Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+41	Haematology Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+42	Phlebotomy Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+43	Tissue Viability Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+44	Family Support Service
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+45	Integrated Multi-Disciplinary Team (jointly commissioned)
+INSERT INTO Codes VALUES (180, 9, '960', 'VVV', 'SYSTEM', '2018-01-01 01:00:00');
+-- Safeguarding Team (for example FGM, Domestic Abuse)
+-- Social Services (e.g. CAF Form commenced)
 
