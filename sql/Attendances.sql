@@ -12,6 +12,7 @@
 CREATE TABLE Attendances (
  AttendanceID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
+ 
  DateRecorded DATE NOT NULL,
  LocationRecorded TEXT NOT NULL,
  -- PerformerID ???
@@ -25,8 +26,10 @@ CREATE TABLE Attendances (
  -- Care professionals present 0..*
  PersonAccompanyingPatient VARCHAR(10), -- Coded
  Outcome VARCHAR(5),                    -- Coded
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
+ 
  CONSTRAINT PK_Attendances PRIMARY KEY (AttendanceID),
  CONSTRAINT FK_Attendances_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
