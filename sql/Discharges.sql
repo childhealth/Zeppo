@@ -16,8 +16,8 @@ CREATE TABLE Discharges (
  DischargeDateTime TIMESTAMP NOT NULL;
  DichargeFrom TEXT NOT NULL,
  DischargingConsultant TEXT,
- DischargingSpeciality TEXT NOT NULL, -- Coded ('*', 'Speciality')
- 
+ DischargingSpeciality VARCHAR(3), -- Coded ('*', 'Speciality')
+ DischargeMethod VARCHAR(2),
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
  
