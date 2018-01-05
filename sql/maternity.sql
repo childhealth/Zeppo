@@ -53,11 +53,7 @@ CREATE TABLE Admissions(
 -- AllergiesAdverseReactions.sql
 -- Assessments.sql
 -- Attendances.sql
-
-/* ClinicalRiskFactors - Stores clinical risk factors associated with maternity records
- */
-CREATE TABLE ClinicalRiskFactors(
-};
+-- ClinicalRiskFactors.sql
 
 /* ConditionsDiagnoses - Stores conditions or diagnoses associated with maternity records
  */
