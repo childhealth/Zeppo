@@ -38,7 +38,7 @@ CREATE TABLE Attendances (
  */
 INSERT INTO CodeLists VALUES (6, 'Attendances', 'ContactType', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO CodeLists VALUES (7, 'Attendances', 'ConsultationMethod', 'SYSTEM', '2018-01-01 01:00:00');
-INSERT INTO CodeLists VALUES (8, 'Attendances', 'Speciality', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO CodeLists VALUES (8, '*', 'Speciality', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO CodeLists VALUES (9, 'Attendances', 'Service', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO CodeLists VALUES (10, 'Attendances', 'PersonAccompanyingPatient', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO CodeLists VALUES (11, 'Attendances', 'Outcome', 'SYSTEM', '2018-01-01 01:00:00');
