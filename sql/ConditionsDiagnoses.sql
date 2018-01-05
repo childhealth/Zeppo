@@ -73,4 +73,4 @@ INSERT INTO Codes VALUES (306, 12, '113', 'Alcohol abuse', 'SYSTEM', '2018-01-01
 INSERT INTO Codes VALUES (307, 12, '114', 'Myasthenia Gravis', 'SYSTEM', '2018-01-01 01:00:00');
 
 INSERT INTO Codes VALUES (308, 13, '1', 'Problems and Issue', 'SYSTEM', '2018-01-01 01:00:00');
-INSERT INTO Codes VALUES (308, 13, '2', 'Diagnosis', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (309, 13, '2', 'Diagnosis', 'SYSTEM', '2018-01-01 01:00:00');
