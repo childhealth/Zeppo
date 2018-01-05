@@ -12,6 +12,7 @@
 CREATE TABLE ClinicalRiskFactors (
  ClinicalRiskFactorID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
+ 
  DateRecorded DATE NOT NULL,
  LocationRecorded TEXT NOT NULL,
  -- PerformerID ???
@@ -20,8 +21,10 @@ CREATE TABLE ClinicalRiskFactors (
  ClinicalRiskFactor TEXT NOT NULL,
  RiskAssessment TEXT NOT NULL,
  RiskMitigation TEXT NOT NULL,
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
+ 
  CONSTRAINT PK_ClinicalRiskFactors PRIMARY KEY (ClinicalRiskFactorID),
  CONSTRAINT FK_ClinicalRiskFactors_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
