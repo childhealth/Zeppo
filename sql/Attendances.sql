@@ -216,3 +216,63 @@ INSERT INTO Codes VALUES (223, 9, '45', 'Integrated Multi-Disciplinary Team (joi
 -- Safeguarding Team (for example FGM, Domestic Abuse)
 -- Social Services (e.g. CAF Form commenced)
 
+INSERT INTO Codes VALUES (224, 10, 'EXT', 'Extended family member', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (225, 10, 'AUNT', 'Aunt', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (226, 10, 'COUSN', 'Cousin', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (227, 10, 'GGRPRN', 'Great grandparent', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (228, 10, 'GGRFTH', 'Great grandfather', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (229, 10, 'GGRMTH', 'Great grandmother', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (230, 10, 'GRPRN', 'Grandparent', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (231, 10, 'GRFTH', 'Grandfather', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (232, 10, 'GRMTH', 'Grandmother', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (233, 10, 'NEPHEW', 'Nephew', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (234, 10, 'NIECE', 'Niece', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (235, 10, 'UNCLE', 'Uncle', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (236, 10, 'PRN', 'Parent', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (237, 10, 'ADOPTF', 'Adoptive father', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (238, 10, 'ADOPTM', 'Adoptive mother', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (239, 10, 'FTH', 'Father', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (240, 10, 'FTHFOST', 'Foster father', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (241, 10, 'NFTH', 'Natural father', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (242, 10, 'STPFTH', 'Stepfather', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (243, 10, 'MTH', 'Mother', 'SYSTEM', '2018-01-01 01:00:00');
+MTHFOST	foster mother
+INSERT INTO Codes VALUES (244, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+NMTH	natural mother
+INSERT INTO Codes VALUES (245, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+STPMTH	stepmother
+INSERT INTO Codes VALUES (246, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+SIB	sibling
+INSERT INTO Codes VALUES (247, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+BRO	brother
+INSERT INTO Codes VALUES (248, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+HBRO	half-brother
+INSERT INTO Codes VALUES (249, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+STPBRO	stepbrother
+INSERT INTO Codes VALUES (250, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+HSIS	half-sister
+INSERT INTO Codes VALUES (251, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+NSIS	natural sister
+INSERT INTO Codes VALUES (252, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+SIS	sister
+INSERT INTO Codes VALUES (253, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+STPSIS	stepsister
+INSERT INTO Codes VALUES (254, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+SIGOTHR	significant other
+INSERT INTO Codes VALUES (255, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+FRND	unrelated friend
+INSERT INTO Codes VALUES (256, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+NBOR	neighbour
+INSERT INTO Codes VALUES (257, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+ONESELF	self
+INSERT INTO Codes VALUES (258, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+ROOM	Roommate
+INSERT INTO Codes VALUES (259, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+guardian	Guardian
+INSERT INTO Codes VALUES (260, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+friend	Friend
+INSERT INTO Codes VALUES (261, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+partner	Partner
+INSERT INTO Codes VALUES (262, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
+caregiver	Caregiver
+INSERT INTO Codes VALUES (263, 10, '45', 'X', 'SYSTEM', '2018-01-01 01:00:00');
