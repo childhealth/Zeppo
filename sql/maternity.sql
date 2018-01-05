@@ -55,11 +55,7 @@ CREATE TABLE Admissions(
 -- Attendances.sql
 -- ClinicalRiskFactors.sql
 -- ConditionsDiagnoses.sql
-
-/* Discharges - Stores discharge details associated with maternity records
- */
-CREATE TABLE Discharges(
-);
+-- Discharges.sql
 
 /* Examinations - Stores examination findings associated with maternity records
  */
