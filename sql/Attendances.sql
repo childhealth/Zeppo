@@ -53,22 +53,21 @@ INSERT INTO Codes VALUES (69, 6, '14', 'Domiciliary Consultation', 'SYSTEM', '20
 INSERT INTO Codes VALUES (70, 6, '22', 'Sexual and Reproductive Health Domiciliary Visit', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (71, 6, '23', 'Genitourinary Consultant Clinic Attendance', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (72, 6, '27', 'Maternity Domiciliary Visit', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (73, 6, '29', 'Nurse or Midwife Contact', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (74, 6, '30', 'Out-Patient Attendance Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (75, 6, '38', 'Theatre Case', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (76, 6, '39', 'Ward Attendance', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (77, 6, '41', 'Improving Access to Psychological Therapies Contact', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (78, 6, '42', 'NHS Health Check Assessment', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (79, 6, '43', 'Antenatal Booking Appointment', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (80, 6, '44', 'Pregnancy First Contact', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (81, 6, '45', 'Nutritional Assessment', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (82, 6, '46', 'HIV Clinic Attendance', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (83, 6, '47', 'Multi-Disciplinary Consultation (National Tariff Payment System)', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (84, 6, '48', 'Multi-Professional Consultation (National Tariff Payment System)', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (85, 6, '49', 'Two Year Neonatal Outcomes Assessment', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (86, 6, '50', 'Radiotherapy Attendance', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (87, 6, '51', 'Holistic Needs Assessment', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (88, 6, '52', 'Emergency Care Attendance', 'SYSTEM', '2018-01-01 01:00:00');
 
-/*
-29	Nurse or Midwife Contact
-30	Out-Patient Attendance Consultant
-38	Theatre Case
-39	Ward Attendance
-41	Improving Access to Psychological Therapies Contact
-42	NHS Health Check Assessment
-43	Antenatal Booking Appointment
-44	Pregnancy First Contact
-45	Nutritional Assessment
-46	HIV Clinic Attendance
-47	Multi-Disciplinary Consultation (National Tariff Payment System)
-48	Multi-Professional Consultation (National Tariff Payment System)
-49	Two Year Neonatal Outcomes Assessment
-50	Radiotherapy Attendance
-51	Holistic Needs Assessment
-52	Emergency Care Attendance
-*/
+
