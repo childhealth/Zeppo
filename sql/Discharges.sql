@@ -13,11 +13,14 @@ CREATE TABLE Discharges (
  DischargeID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
  
- DischargeDateTime TIMESTAMP NOT NULL;
- DichargeFrom TEXT NOT NULL,
- DischargingConsultant TEXT,
- DischargingSpeciality VARCHAR(3), -- Coded ('*', 'Speciality')
- DischargeMethod VARCHAR(2),
+ DateTime TIMESTAMP NOT NULL;
+ Location TEXT NOT NULL,
+ Consultant TEXT,
+ Speciality VARCHAR(3),  -- Coded ('*', 'Speciality')
+ Method VARCHAR(2),      -- Coded
+ Destination VARCHAR(2), -- Coded
+ Address TEXT,
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
  
@@ -25,11 +28,11 @@ CREATE TABLE Discharges (
  CONSTRAINT FK_Discharges_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
 
-/* Insert ConditionsDiagnoses related codelists
+/* Insert Discharges related codelists
  */
-INSERT INTO CodeLists VALUES (12, 'ConditionsDiagnoses', 'Condition', 'SYSTEM', '2018-01-01 01:00:00');
-INSERT INTO CodeLists VALUES (13, 'ConditionsDiagnoses', 'Category', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO CodeLists VALUES (14, 'Discharges', 'Method', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO CodeLists VALUES (15, 'Discharges', 'Destination', 'SYSTEM', '2018-01-01 01:00:00');
 
-/* Insert ConditionsDiagnoses related codes
+/* Insert Discharges related codes
  */
 INSERT INTO Codes VALUES (267, 12, '1', 'Rubella', 'SYSTEM', '2018-01-01 01:00:00');
