@@ -1,6 +1,6 @@
 /*
  * SQL to create Discharges table.
- * Stores conditions or diagnoses associated with maternity records.
+ * Stores discharge details associated with maternity records.
  * Assumes table does not already exist.
  * Based on Maternity Data Model Version 0.6
  *
@@ -9,17 +9,17 @@
 
 /* Create table
  */
-CREATE TABLE ConditionsDiagnoses (
- ConditionDiagnosisID INTEGER NOT NULL,
+CREATE TABLE Discharges (
+ DischargeID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
- Condition VARCHAR(18) NOT NULL; -- Coded
- Category VARCHAR(1) NOT NULL,   -- Coded
- Stage TEXT,
- Onset DATE,
+ 
+ DischargeDateTime TIMESTAMP NOT NULL;
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
- CONSTRAINT PK_ConditionsDiagnoses PRIMARY KEY (ConditionDiagnosisID),
- CONSTRAINT FK_ConditionsDiagnoses_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
+ 
+ CONSTRAINT PK_Discharges PRIMARY KEY (DischargeID),
+ CONSTRAINT FK_Discharges_MaternityRecords FOREIGN KEY (MaternityRecordID) REFERENCES MaternityRecords(MaternityRecordID)
 );
 
 /* Insert ConditionsDiagnoses related codelists
