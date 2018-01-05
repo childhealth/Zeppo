@@ -35,14 +35,18 @@ INSERT INTO CodeLists VALUES (15, 'Discharges', 'Destination', 'SYSTEM', '2018-0
 
 /* Insert Discharges related codes
  */
-INSERT INTO Codes VALUES (268, 14, '1', 'Rubella', 'SYSTEM', '2018-01-01 01:00:00');
-1	PATIENT discharged on clinical advice or with clinical consent
-2	PATIENT discharged him/herself or was discharged by a relative or advocate
+INSERT INTO Codes VALUES (310, 14, '1', 'PATIENT discharged on clinical advice or with clinical consent', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (310, 14, '2', 'PATIENT discharged him/herself or was discharged by a relative or advocate', 'SYSTEM', '2018-01-01 01:00:00');
 3	PATIENT discharged by mental health review tribunal, Home Secretary or Court
+INSERT INTO Codes VALUES (310, 14, '1', 'Rubella', 'SYSTEM', '2018-01-01 01:00:00');
 4	PATIENT died
+INSERT INTO Codes VALUES (310, 14, '1', 'Rubella', 'SYSTEM', '2018-01-01 01:00:00');
 5	Stillbirth
+INSERT INTO Codes VALUES (310, 14, '1', 'Rubella', 'SYSTEM', '2018-01-01 01:00:00');
 6	PATIENT discharged him/herself *
+INSERT INTO Codes VALUES (310, 14, '1', 'Rubella', 'SYSTEM', '2018-01-01 01:00:00');
 7	PATIENT discharged by a relative or advocate *
+INSERT INTO Codes VALUES (310, 14, '1', 'Rubella', 'SYSTEM', '2018-01-01 01:00:00');
 
 
 19	Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes PATIENTS with no fixed abode.
