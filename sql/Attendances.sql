@@ -13,8 +13,8 @@ CREATE TABLE Attendances (
  AttendanceID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
  
- DateRecorded DATE NOT NULL,
- LocationRecorded TEXT NOT NULL,
+ DateAttended DATE NOT NULL,
+ LocationAttended TEXT NOT NULL,
  -- PerformerID ???
  PerformerName TEXT NOT NULL,
  PerformerJobRole TEXT NOT NULL,        -- Should be coded
