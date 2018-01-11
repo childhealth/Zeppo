@@ -13,15 +13,15 @@ CREATE TABLE Assessments (
  AssessmentID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
  
- DateRecorded DATE NOT NULL,
- LocationRecorded TEXT NOT NULL,
+ DateRecorded DATE NOT NULL, -- is this when the assessment was carried out?
+ LocationRecorded TEXT NOT NULL, -- is this where the assessment was carried out?
  -- PerformerID ???
- PerformerName TEXT NOT NULL,
+ PerformerName TEXT NOT NULL, -- is this who carried out the assessment?
  PerformerJobRole TEXT NOT NULL,-- Should be coded
  Completed VARCHAR(5) NOT NULL, -- Coded
  Type VARCHAR(5) NOT NULL,      -- Coded
- Outcome TEXT,
- Score TEXT,
+ Outcome TEXT, -- 0..* ?
+ Score TEXT, -- 0..* ?
  
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
