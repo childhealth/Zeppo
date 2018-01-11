@@ -24,7 +24,7 @@ CREATE TABLE Attendances (
  Speciality VARCHAR(3),                 -- Coded ('*', 'Speciality')
  Service VARCHAR(2),                    -- Coded
  -- Care professionals present 0..*
- PersonAccompanyingPatient VARCHAR(10), -- Coded
+ PersonAccompanyingPatient VARCHAR(10), -- Coded 0..*
  Outcome VARCHAR(5),                    -- Coded
  
  UStamp VARCHAR(20) NOT NULL,
