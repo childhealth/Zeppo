@@ -212,82 +212,44 @@ INSERT INTO Codes VALUES (100, 'R0013', 'Student Radiographer', 'SYSTEM', '2018-
 INSERT INTO Codes VALUES (100, 'R0014', 'Radiologist', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R0015', 'PACS Administrator', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R0016', 'Reporting Radiographer', 'SYSTEM', '2018-01-01 01:00:00');
-R0017	Assistant Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1190	Radiographer - Diagnostic
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1200	Radiographer - Diagnostic, Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1210	Radiographer - Diagnostic, Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1220	Radiographer - Diagnostic, Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1230	Radiographer - Therapeutic
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1240	Radiographer - Therapeutic, Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1250	Radiographer - Therapeutic, Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1260	Radiographer - Therapeutic, Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1030	Orthotist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1040	Orthotist Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1050	Orthotist Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1060	Orthotist Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1150	Prosthetist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1160	Prosthetist Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1170	Prosthetist Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1180	Prosthetist Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0710	Art Therapist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0720	Art Therapist Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0730	Art Therapist Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0740	Art Therapist Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0830	Drama Therapist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0840	Drama Therapist Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0850	Drama Therapist Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0860	Drama Therapist Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0870	Multi Therapist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0880	Multi Therapist Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0890	Multi Therapist Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0900	Multi Therapist Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0910	Music Therapist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0920	Music Therapist Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0930	Music Therapist Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0940	Music Therapist Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0955	Speech & Language Therapist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0965	Speech & Language Therapist Consultant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0975	Speech & Language Therapist Manager
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0985	Speech & Language Therapist Specialist Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R9500	Social services senior management
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0017', 'Assistant Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1190', 'Radiographer - Diagnostic', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1200', 'Radiographer - Diagnostic, Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1210', 'Radiographer - Diagnostic, Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1220', 'Radiographer - Diagnostic, Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1230', 'Radiographer - Therapeutic', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1240', 'Radiographer - Therapeutic, Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1250', 'Radiographer - Therapeutic, Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1260', 'Radiographer - Therapeutic, Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1030', 'Orthotist', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1040', 'Orthotist Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1050', 'Orthotist Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1060', 'Orthotist Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1150', 'Prosthetist', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1160', 'Prosthetist Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1170', 'Prosthetist Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1180', 'Prosthetist Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0710', 'Art Therapist', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0720', 'Art Therapist Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0730', 'Art Therapist Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0740', 'Art Therapist Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0830', 'Drama Therapist', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0840', 'Drama Therapist Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0850', 'Drama Therapist Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0860', 'Drama Therapist Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0870', 'Multi Therapist', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0880', 'Multi Therapist Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0890', 'Multi Therapist Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0900', 'Multi Therapist Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0910', 'Music Therapist', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0920', 'Music Therapist Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0930', 'Music Therapist Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0940', 'Music Therapist Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0955', 'Speech & Language Therapist', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0965', 'Speech & Language Therapist Consultant', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0975', 'Speech & Language Therapist Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R0985', 'Speech & Language Therapist Specialist Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R9500', 'Social services senior management', 'SYSTEM', '2018-01-01 01:00:00');
 R9505	Social services policy and planning
 INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R9510	Social Services information manager
