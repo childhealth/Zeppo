@@ -10,7 +10,9 @@
  */
 CREATE TABLE MaternityRecords (
  MaternityRecordID INTEGER NOT NULL,
+ 
  NHSNumber VARCHAR(10),
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
  CONSTRAINT PK_MaternityRecords PRIMARY KEY (MaternityRecordID)
