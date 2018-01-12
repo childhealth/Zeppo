@@ -17,9 +17,9 @@ CREATE TABLE Assessments (
  AssessmentLocation VARCHAR(50) NOT NULL,
  PerformerID VARCHAR(10),
  PerformerName VARCHAR(50) NOT NULL,
- PerformerJobRole VARCHAR(10) NOT NULL, -- Should be coded
- Completed VARCHAR(5) NOT NULL,      -- Coded
- AssessmentType VARCHAR(5) NOT NULL, -- Coded
+ PerformerJobRole VARCHAR(10) NOT NULL, -- Coded
+ Completed VARCHAR(5) NOT NULL,         -- Coded
+ AssessmentType VARCHAR(5) NOT NULL,    -- Coded
  Score VARCHAR(10),
  Outcome VARCHAR(50),
  
@@ -34,7 +34,7 @@ CREATE TABLE Assessments (
  */
 INSERT INTO CodeLists VALUES (4, 'Assessments', 'Completed', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO CodeLists VALUES (5, 'Assessments', 'AssessmentType', 'SYSTEM', '2018-01-01 01:00:00');
-INSERT INTO CodeLists VALUES (100, 'Assessments', 'JobRole', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO CodeLists VALUES (100, '*', 'JobRole', 'SYSTEM', '2018-01-01 01:00:00');
 
 /* Insert Assessments related codes
  */
@@ -89,159 +89,310 @@ INSERT INTO Codes VALUES (5, '54', 'European Group for the Immunological Classif
 --	Anxiety Identification Questions
 --	OTHER (specify)
 
-Job Role Code	Job Role
 R0010	Medical Director
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0020	Clinical Director - Medical
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0210	Director of Public Health
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0030	Professor
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0040	Senior Lecturer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0050	Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0060	Special salary scale in Public Health Medicine
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0070	Associate Specialist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0080	Staff Grade
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0090	Hospital Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0100	Clinical Assistant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0110	Specialist Registrar
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0120	Senior Registrar (Closed )
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0130	Registrar (Closed)
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0140	Senior House Officer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0150	House Officer - Pre Registration
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0160	House Officer - Post Registration
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0170	Trust Grade Doctor - House Officer level
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0180	Trust Grade Doctor - SHO level
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0190	Trust Grade Doctor - Specialist Registrar level
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0200	Trust Grade Doctor - Career Grade level
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0260	General Medical Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0270	Salaried General Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1981	Psychiatrist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1984	Health Records Administrator
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R6200	GP Registrar
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R6300	Sessional GP
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R7140	ODP
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R7150	SODP
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R9100	A & E Staff Nurse (Temporary)  London Cluster Only
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R9101	A & E Manager (Temporary) London Cluster Only
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R9102	A & E Doctor  (Temporary) London Cluster only
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R9103	A & E  Student (Temporary) London Cluster Only
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R9104	A & E  Clerk (Temporary) London Cluster Only
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0215	Asst. Clinical Medical Officer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0220	Clinical Medical Officer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0230	Senior Clinical Medical Officer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0240	Other Community Health Service
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0243	Other Community Health Service - Social Care Worker
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0247	Other Community Health Service - Admin Clerk
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0055	Dental surgeon acting as Hospital Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0250	General Dental Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0280	Regional Dental Officer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0290	Dental Clinical Director - Dental
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0295	Dental Assistant Clinical Director
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0300	Dental Officer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0310	Senior Dental Officer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0320	Salaried Dental Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0006	Student Community Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0330	Student Nurse - Adult Branch
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0340	Student Nurse - Child Branch
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0350	Student Nurse - Mental Health Branch
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0360	Student Nurse - Learning Disabilities Branch
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0370	Student Midwife
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0380	Student Health Visitor
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0390	Student District Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0400	Student School Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0410	Student Practice Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0420	Student Occupational Health Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0430	Student Community Paediatric Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0440	Student Community Mental Health Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0450	Student Community Learning Disabilities Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0460	Student Chiropodist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0470	Student Dietitian
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0480	Student Occupational Therapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0490	Student Orthoptist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0500	Student Physiotherapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0510	Student Radiographer - Diagnostic
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0520	Student Radiographer - Therapeutic
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0530	Student Speech & Language Therapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0540	Art, Music & Drama Student
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0550	Student Psychotherapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R6400	Medical Student
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0560	Director of Nursing
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0580	Nurse Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0610	Sister/Charge Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1976	Community Team Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0570	Nurse Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0600	Specialist Nurse Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0620	Staff Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0630	Enrolled Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0690	Community Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0700	Community Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1974	Community Learning Disabilities Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1975	Community Mental Health Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0590	Modern Matron
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1972	Clinical Team Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0640	Midwife - Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0650	Midwife - Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0660	Midwife - Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0670	Midwife - Sister/Charge Nurse
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0680	Midwife
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0018	Audiologist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0750	Chiropodist/Podiatrist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0760	Chiropodist/Podiatrist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0770	Chiropodist/Podiatrist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0780	Chiropodist/Podiatrist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0790	Dietitian
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0800	Dietitian Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0810	Dietitian Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0820	Dietitian Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0950	Occupational Therapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0960	Occupational Therapist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0970	Occupational Therapist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0980	Occupational Therapy Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0990	Orthoptist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1000	Orthoptist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1010	Orthoptist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1020	Orthoptist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1110	Physiotherapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1120	Physiotherapist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1130	Physiotherapist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1140	Physiotherapist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1070	Paramedic
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1080	Paramedic Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1090	Paramedic Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1100	Paramedic Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0003	Clinical Application Administrator
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0012	Radiographer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0013	Student Radiographer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0014	Radiologist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0015	PACS Administrator
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0016	Reporting Radiographer
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0017	Assistant Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1190	Radiographer - Diagnostic
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1200	Radiographer - Diagnostic, Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1210	Radiographer - Diagnostic, Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1220	Radiographer - Diagnostic, Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1230	Radiographer - Therapeutic
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1240	Radiographer - Therapeutic, Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1250	Radiographer - Therapeutic, Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1260	Radiographer - Therapeutic, Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1030	Orthotist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1040	Orthotist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1050	Orthotist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1060	Orthotist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1150	Prosthetist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1160	Prosthetist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1170	Prosthetist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1180	Prosthetist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0710	Art Therapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0720	Art Therapist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0730	Art Therapist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0740	Art Therapist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0830	Drama Therapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0840	Drama Therapist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0850	Drama Therapist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0860	Drama Therapist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0870	Multi Therapist
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0880	Multi Therapist Consultant
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0890	Multi Therapist Manager
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0900	Multi Therapist Specialist Practitioner
+INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R0910	Music Therapist
 R0920	Music Therapist Consultant
 R0930	Music Therapist Manager
