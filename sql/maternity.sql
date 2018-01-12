@@ -15,6 +15,7 @@ CREATE TABLE MaternityRecords (
  
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
+ 
  CONSTRAINT PK_MaternityRecords PRIMARY KEY (MaternityRecordID)
 );
 
@@ -22,23 +23,28 @@ CREATE TABLE MaternityRecords (
  */
 CREATE TABLE CodeLists (
  CodeListID INTEGER NOT NULL,
+ 
  DatabaseTable VARCHAR(100) NOT NULL,
  DatabaseColumn VARCHAR(100) NOT NULL,
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
+ 
  CONSTRAINT PK_CodeLists PRIMARY KEY (CodeListID)
 );
 
 /* Codes - Stores codes
  */
 CREATE TABLE Codes (
- CodeID INTEGER NOT NULL,
  CodeListID INTEGER NOT NULL,
  CodeKey VARCHAR(20) NOT NULL,
+ 
  CodeValue TEXT NOT NULL,
+ 
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
- CONSTRAINT PK_Codes PRIMARY KEY (CodeID),
+ 
+ CONSTRAINT PK_Codes PRIMARY KEY (CodeListID, CodeKey),
  CONSTRAINT FK_Codes_CodeLists FOREIGN KEY (CodeListID) REFERENCES CodeLists(CodeListID)
 );
 
