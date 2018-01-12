@@ -13,7 +13,7 @@ CREATE TABLE AllergiesAdverseReactions (
  AllergyAdverseReactionID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
  
- DateRecorded DATE NOT NULL,
+ RecordedDate DATE NOT NULL,
  CausativeAgent TEXT NOT NULL,
  ReactionDescription TEXT,
  ReactionType VARCHAR(5), -- Coded
