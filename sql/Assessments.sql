@@ -13,15 +13,15 @@ CREATE TABLE Assessments (
  AssessmentID INTEGER NOT NULL,
  MaternityRecordID INTEGER NOT NULL,
  
- DateRecorded DATE NOT NULL, -- is this when the assessment was carried out?
- LocationRecorded TEXT NOT NULL, -- is this where the assessment was carried out?
- -- PerformerID ???
- PerformerName TEXT NOT NULL, -- is this who carried out the assessment?
- PerformerJobRole TEXT NOT NULL,-- Should be coded
- Completed VARCHAR(5) NOT NULL, -- Coded
- Type VARCHAR(5) NOT NULL,      -- Coded
- Outcome TEXT, -- 0..* ?
- Score TEXT, -- 0..* ?
+ AssessmentDate DATE NOT NULL,
+ AssessmentLocation VARCHAR(50) NOT NULL,
+ PerformerID VARCHAR(10),
+ PerformerName VARCHAR(50) NOT NULL,
+ PerformerRole VARCHAR(10) NOT NULL, -- Should be coded
+ Completed VARCHAR(5) NOT NULL,      -- Coded
+ AssessmentType VARCHAR(5) NOT NULL, -- Coded
+ Score VARCHAR(10),
+ Outcome VARCHAR(50),
  
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
@@ -33,7 +33,7 @@ CREATE TABLE Assessments (
 /* Insert Assessments related codelists
  */
 INSERT INTO CodeLists VALUES (4, 'Assessments', 'Completed', 'SYSTEM', '2018-01-01 01:00:00');
-INSERT INTO CodeLists VALUES (5, 'Assessments', 'Type', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO CodeLists VALUES (5, 'Assessments', 'AssessmentType', 'SYSTEM', '2018-01-01 01:00:00');
 
 /* Insert Assessments related codes
  */
