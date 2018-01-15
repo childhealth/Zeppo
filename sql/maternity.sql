@@ -48,14 +48,19 @@ CREATE TABLE Codes (
  CONSTRAINT FK_Codes_CodeLists FOREIGN KEY (CodeListID) REFERENCES CodeLists(CodeListID)
 );
 
+/* Demographics - Stores demographics associated with maternity records
+ */
+CREATE TABLE Demographics (
+);
+
 /* AdditionalDemographics - Stores additional demographics associated with maternity records
  */
-CREATE TABLE AdditionalDemographics(
+CREATE TABLE AdditionalDemographics (
 );
 
 /* Admissions - Stores admission details associated with maternity records
  */
-CREATE TABLE Admissions(
+CREATE TABLE Admissions (
 );
 
 -- AllergiesAdverseReactions.sql
