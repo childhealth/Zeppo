@@ -17,9 +17,9 @@ CREATE TABLE Assessments (
  AssessmentLocation VARCHAR(50) NOT NULL,
  PerformerID VARCHAR(10),
  PerformerName VARCHAR(50) NOT NULL,
- PerformerJobRole VARCHAR(10) NOT NULL, -- Coded
- Completed VARCHAR(5) NOT NULL,         -- Coded
- AssessmentType VARCHAR(5) NOT NULL,    -- Coded
+ PerformerJobRole VARCHAR(10) NOT NULL, -- Coded (4, 'Assessments', 'Completed')
+ Completed VARCHAR(5) NOT NULL,         -- Coded (5, 'Assessments', 'AssessmentType')
+ AssessmentType VARCHAR(5) NOT NULL,    -- Coded (100, '*', 'JobRole')
  Score VARCHAR(10),
  Outcome VARCHAR(50),
  
