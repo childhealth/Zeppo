@@ -19,13 +19,13 @@ CREATE TABLE Attendances (
  PerformerName TEXT NOT NULL,
  PerformerJobRole TEXT NOT NULL,        -- Should be coded
  Indication TEXT;
- ContactType VARCHAR(2),                -- Coded
- ConsultationMethod VARCHAR(2),         -- Coded
- Speciality VARCHAR(3),                 -- Coded ('*', 'Speciality')
- Service VARCHAR(2),                    -- Coded
+ ContactType VARCHAR(2),                -- Coded (6, 'Attendances', 'ContactType')
+ ConsultationMethod VARCHAR(2),         -- Coded (7, 'Attendances', 'ConsultationMethod')
+ Speciality VARCHAR(3),                 -- Coded (8, '*', 'Speciality')
+ Service VARCHAR(2),                    -- Coded (9, 'Attendances', 'Service')
  -- Care professionals present 0..*
- PersonAccompanyingPatient VARCHAR(10), -- Coded 0..*
- Outcome VARCHAR(5),                    -- Coded
+ PersonAccompanyingPatient VARCHAR(10), -- Coded (10, 'Attendances', 'PersonAccompanyingPatient') ??? 0..*
+ Outcome VARCHAR(5),                    -- Coded (11, 'Attendances', 'Outcome')
  
  UStamp VARCHAR(20) NOT NULL,
  DTStamp TIMESTAMP NOT NULL,
