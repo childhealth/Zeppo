@@ -340,60 +340,59 @@ INSERT INTO Codes VALUES (100, 'R1590', 'Phlebotomist', 'SYSTEM', '2018-01-01 01
 INSERT INTO Codes VALUES (100, 'R1460', 'Social Care Support Worker', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R1470', 'Home Help', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R1520', 'Technician - Add''l Clinical Services', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1530', 'Technical Instructor', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1980', 'Patient Welfare Officer', 'SYSTEM', '2018-01-01 01:00:00');
-R1500	Play Therapist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1510	Play Specialist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1610	Student Technician
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1620	Trainee Scientist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1630	Trainee Practitioner
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1640	Nursing Cadet
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1650	Healthcare Cadet
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1660	Pre-reg Pharmacist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1670	Assistant Psychologist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1680	Assistant Psychotherapist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0007	ERS SDS Organisation Reporting Analyst
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0008	Demographic Supervisor
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0021	DSA NHS Number Manager (TEMPORARY)
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0022	DSA National Clinical Supervisor (TEMPORARY)
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R0023	DSA National Clinical Administrator (TEMPORARY)
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1720	Clerical Worker
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1730	Receptionist
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1740	Secretary
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1750	Personal Assistant
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1751	Demographic Administrator (Sensitive Records) Temporary
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1760	Medical Secretary
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1770	Officer
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1971	Map of Medicine Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1973	Community Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1977	ECC/CPA Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1500', 'Play Therapist', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1510', 'Play Specialist', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1610', 'Student Technician', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1620', 'Trainee Scientist', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1630', 'Trainee Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1640', 'Nursing Cadet', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1650', 'Healthcare Cadet', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1660', 'Pre-reg Pharmacist', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1670', 'Assistant Psychologist', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1680', 'Assistant Psychotherapist', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R0007', 'ERS SDS Organisation Reporting Analyst', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R0008', 'Demographic Supervisor', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R0021', 'DSA NHS Number Manager (TEMPORARY)', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R0022', 'DSA National Clinical Supervisor (TEMPORARY)', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R0023', 'DSA National Clinical Administrator (TEMPORARY)', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1720', 'Clerical Worker', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1730', 'Receptionist', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1740', 'Secretary', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1750', 'Personal Assistant', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1751', 'Demographic Administrator (Sensitive Records) Temporary', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1760', 'Medical Secretary', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1770', 'Officer', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1971', 'Map of Medicine Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+	
+INSERT INTO Codes VALUES (100, 'R1973', 'Community Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+	
+	XXXX
+INSERT INTO Codes VALUES (100, '0', 'ECC/CPA Administrator', 'SYSTEM', '2018-01-01 01:00:00');
 R1978	Information Officer
 INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
 R1985	Health Records Clerk
