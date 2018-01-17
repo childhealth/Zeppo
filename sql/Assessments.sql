@@ -89,6 +89,9 @@ INSERT INTO Codes VALUES (5, '54', 'European Group for the Immunological Classif
 --	Anxiety Identification Questions
 --	OTHER (specify)
 
+/* National RBAC Database, version 25.1 (Approved)
+ * OBSOLETE codes not included
+ */
 INSERT INTO Codes VALUES (100, 'R0010', 'Medical Director', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R0020', 'Clinical Director - Medical', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R0210', 'Director of Public Health', 'SYSTEM', '2018-01-01 01:00:00');
@@ -342,119 +345,61 @@ INSERT INTO Codes VALUES (100, 'R1470', 'Home Help', 'SYSTEM', '2018-01-01 01:00
 INSERT INTO Codes VALUES (100, 'R1520', 'Technician - Add''l Clinical Services', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R1530', 'Technical Instructor', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R1980', 'Patient Welfare Officer', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1500', 'Play Therapist', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1510', 'Play Specialist', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1610', 'Student Technician', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1620', 'Trainee Scientist', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1630', 'Trainee Practitioner', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1640', 'Nursing Cadet', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1650', 'Healthcare Cadet', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1660', 'Pre-reg Pharmacist', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1670', 'Assistant Psychologist', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1680', 'Assistant Psychotherapist', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R0007', 'ERS SDS Organisation Reporting Analyst', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R0008', 'Demographic Supervisor', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R0021', 'DSA NHS Number Manager (TEMPORARY)', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R0022', 'DSA National Clinical Supervisor (TEMPORARY)', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R0023', 'DSA National Clinical Administrator (TEMPORARY)', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1720', 'Clerical Worker', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1730', 'Receptionist', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1740', 'Secretary', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1750', 'Personal Assistant', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1751', 'Demographic Administrator (Sensitive Records) Temporary', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1760', 'Medical Secretary', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1770', 'Officer', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1971', 'Map of Medicine Administrator', 'SYSTEM', '2018-01-01 01:00:00');
-	
 INSERT INTO Codes VALUES (100, 'R1973', 'Community Administrator', 'SYSTEM', '2018-01-01 01:00:00');
-	
-	XXXX
-INSERT INTO Codes VALUES (100, '0', 'ECC/CPA Administrator', 'SYSTEM', '2018-01-01 01:00:00');
-R1978	Information Officer
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1985	Health Records Clerk
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R1995	End Point Approver
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5010	Network Technician
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5040	Desktop Support Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5090	Registration Authority Agent
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5110	Demographic Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5120	ISP Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5130	Technical Codes Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5140	OSS Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5170	End Point Administrator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5175	End Point Viewer
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5181	RTS Dashboard User
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5183	RTS BT Dashboard User
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5186	ERS BT Customer SLA User
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5188	ERS BT Supplier SLA User
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5189	ERS LogicaCMG SLA User
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5190	Content Creator
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5195	Content Publisher
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5200	OBSOLETE Service Registration Authority Agent
-INSERT INTO Codes VALUES (100, '0', 'No', 'SYSTEM', '2018-01-01 01:00:00');
-R5210	User Details Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5250	EBS Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R6010	Appointments Clerk
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R6030	Ward Clerk
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R6050	Clinical Coder
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R6060	Medical Records Clerk
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R6080	Waiting List Clerk
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R7100	Trainer
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R7110	Training Manager
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R7120	Directory of Services Coordinator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R9756	ETP System Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1977', 'ECC/CPA Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1978', 'Information Officer', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1985', 'Health Records Clerk', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1995', 'End Point Approver', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5010', 'Network Technician', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5040', 'Desktop Support Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5090', 'Registration Authority Agent', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5110', 'Demographic Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5120', 'ISP Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5130', 'Technical Codes Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5140', 'OSS Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5170', 'End Point Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5175', 'End Point Viewer', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5181', 'RTS Dashboard User', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5183', 'RTS BT Dashboard User', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5186', 'ERS BT Customer SLA User', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5188', 'ERS BT Supplier SLA User', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5189', 'ERS LogicaCMG SLA User', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5190', 'Content Creator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5195', 'Content Publisher', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5210', 'User Details Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5250', 'EBS Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R6010', 'Appointments Clerk', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R6030', 'Ward Clerk', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R6050', 'Clinical Coder', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R6060', 'Medical Records Clerk', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R6080', 'Waiting List Clerk', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R7100', 'Trainer', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R7110', 'Training Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R7120', 'Directory of Services Coordinator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R9756', 'ETP System Administrator', 'SYSTEM', '2018-01-01 01:00:00');
 R1780	Manager
 INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
 R1790	Senior Manager
