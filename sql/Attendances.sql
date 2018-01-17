@@ -17,7 +17,7 @@ CREATE TABLE Attendances (
  LocationAttended TEXT NOT NULL,
  -- PerformerID ???
  PerformerName TEXT NOT NULL,
- PerformerJobRole TEXT NOT NULL,        -- Should be coded
+ PerformerJobRole VARCHAR(10) NOT NULL, -- Coded (100, '*', 'JobRole')
  Indication TEXT;
  ContactType VARCHAR(2),                -- Coded (6, 'Attendances', 'ContactType')
  ConsultationMethod VARCHAR(2),         -- Coded (7, 'Attendances', 'ConsultationMethod')
