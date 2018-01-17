@@ -16,9 +16,9 @@ CREATE TABLE AllergiesAdverseReactions (
  RecordedDate DATE NOT NULL,
  CausativeAgent TEXT NOT NULL,
  ReactionDescription TEXT,
- ReactionType VARCHAR(5), -- Coded
- Certainty VARCHAR(5),    -- Coded
- Severity VARCHAR(5),     -- Coded
+ ReactionType VARCHAR(5), -- Coded (1, 'AllergiesAdverseReactions', 'ReactionType')
+ Certainty VARCHAR(5),    -- Coded (2, 'AllergiesAdverseReactions', 'Certainty')
+ Severity VARCHAR(5),     -- Coded (3, 'AllergiesAdverseReactions', 'Severity')
  Evidence TEXT,
  RecurrenceProbability TEXT,
  FirstExperienced TEXT,
