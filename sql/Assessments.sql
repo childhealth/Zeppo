@@ -400,61 +400,33 @@ INSERT INTO Codes VALUES (100, 'R7100', 'Trainer', 'SYSTEM', '2018-01-01 01:00:0
 INSERT INTO Codes VALUES (100, 'R7110', 'Training Manager', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R7120', 'Directory of Services Coordinator', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R9756', 'ETP System Administrator', 'SYSTEM', '2018-01-01 01:00:00');
-R1780	Manager
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1790	Senior Manager
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1910	Chair
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1920	Chief Executive
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1930	Finance Director
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1940	Other Executive Director
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1950	Board Level Director
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1960	Non Executive Director
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1970	Childcare Co-ordinator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1982	Senior Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1983	Ward Manager
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1986	Workgroup Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1987	National RBAC Attribute Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1988	National RBAC Baseline Policy Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1989	Complaints Coordinator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1990	Complaints Investigator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1996	End Point DNS Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1997	End Point Spine Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1998	End Point Super User
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R1999	End Point Service Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5000	Network Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5003	Cluster System Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5007	System Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5020	Helpdesk Administrator
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5060	Security Policy Controller
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5070	Senior Security Manager
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00');
-R5072	Root Registration Authority Manager
-INSERT INTO Codes VALUES (100, 'XX', 'XX', 'SYSTEM', '2018-01-01 01:00:00')
-	
+INSERT INTO Codes VALUES (100, 'R1780', 'Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1790', 'Senior Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1910', 'Chair', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1920', 'Chief Executive', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1930', 'Finance Director', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1940', 'Other Executive Director', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1950', 'Board Level Director', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1960', 'Non Executive Director', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1970', 'Childcare Co-ordinator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1982', 'Senior Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1983', 'Ward Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1986', 'Workgroup Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1987', 'National RBAC Attribute Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1988', 'National RBAC Baseline Policy Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1989', 'Complaints Coordinator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1990', 'Complaints Investigator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1996', 'End Point DNS Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1997', 'End Point Spine Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1998', 'End Point Super User', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R1999', 'End Point Service Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5000', 'Network Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5003', 'Cluster System Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5007', 'System Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5020', 'Helpdesk Administrator', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5060', 'Security Policy Controller', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5070', 'Senior Security Manager', 'SYSTEM', '2018-01-01 01:00:00');
+INSERT INTO Codes VALUES (100, 'R5072', 'Root Registration Authority Manager', 'SYSTEM', '2018-01-01 01:00:00')
 INSERT INTO Codes VALUES (100, 'R5080', 'Registration Authority Manager', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R5100', 'Audit Manager', 'SYSTEM', '2018-01-01 01:00:00');
 INSERT INTO Codes VALUES (100, 'R5105', 'Caldicott Guardian', 'SYSTEM', '2018-01-01 01:00:00');
